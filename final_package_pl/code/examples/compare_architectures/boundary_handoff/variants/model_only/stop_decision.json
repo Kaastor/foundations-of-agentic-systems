@@ -1,0 +1,18 @@
+{
+  "step": 3,
+  "outcome": "handoff",
+  "rationale": "Blocking verification issues remained at stop time.",
+  "satisfied_success_criteria": [],
+  "remaining_blockers": [
+    "boundary: request includes deferred topics and requires a boundary note",
+    "goal: unresolved ambiguity prevents a bounded review",
+    "grounding: final review lacks sufficient citations",
+    "goal: comparison requested but output does not compare alternatives"
+  ],
+  "handoff_required": true,
+  "boundary_topics": [
+    "ir_internals",
+    "live_retrieval",
+    "operations"
+  ]
+}

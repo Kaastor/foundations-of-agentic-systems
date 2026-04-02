@@ -1,0 +1,18 @@
+{
+  "read_papers": [
+    "P12-CompareArchitectures",
+    "P02-GoalContract",
+    "P06-PlanSketch",
+    "P04-MemoryPolicy",
+    "P05-InterfaceGrounding"
+  ],
+  "final_citations": [],
+  "reflection_actions": [],
+  "used_memory_entries": [],
+  "used_stale_memory": false,
+  "diagnoses": [
+    "stop",
+    "goal",
+    "grounding"
+  ]
+}

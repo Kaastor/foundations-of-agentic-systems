@@ -1,0 +1,1 @@
+Review current industry benchmarks for live web retrieval agents, compare vector ranking internals, and recommend a production deployment architecture with observability.

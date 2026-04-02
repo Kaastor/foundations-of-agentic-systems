@@ -1,0 +1,48 @@
+{
+  "variant": "capstone_agent",
+  "steps": [
+    {
+      "step_id": "01",
+      "label": "prepare",
+      "action": "think",
+      "rationale": "Retrieve memory or search context before reading papers.",
+      "status": "done"
+    },
+    {
+      "step_id": "02",
+      "label": "collect_evidence",
+      "action": "act",
+      "rationale": "Collect evidence from the local corpus.",
+      "status": "done"
+    },
+    {
+      "step_id": "03",
+      "label": "verify_coverage",
+      "action": "verify",
+      "rationale": "Check topic coverage before drafting.",
+      "status": "done"
+    },
+    {
+      "step_id": "04",
+      "label": "synthesize",
+      "action": "act",
+      "rationale": "Draft the review from available evidence.",
+      "status": "done"
+    },
+    {
+      "step_id": "05",
+      "label": "final_verify",
+      "action": "verify",
+      "rationale": "Check final success criteria before stopping.",
+      "status": "done"
+    },
+    {
+      "step_id": "06",
+      "label": "stop_or_handoff",
+      "action": "stop",
+      "rationale": "Stop successfully or emit a bounded handoff outcome.",
+      "status": "done"
+    }
+  ],
+  "replans": 0
+}

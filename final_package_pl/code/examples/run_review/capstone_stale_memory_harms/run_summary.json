@@ -1,0 +1,24 @@
+{
+  "read_papers": [
+    "P13-StaleReflection",
+    "P07-ReflectCheck",
+    "P04-MemoryPolicy",
+    "P11-MemoryRichToolPoor",
+    "P10-ToolRichNoMemory"
+  ],
+  "final_citations": [
+    "P04-MemoryPolicy",
+    "P07-ReflectCheck",
+    "P11-MemoryRichToolPoor",
+    "P13-StaleReflection"
+  ],
+  "reflection_actions": [],
+  "used_memory_entries": [
+    "note-9-6",
+    "note-10-7",
+    "note-11-8",
+    "note-12-9"
+  ],
+  "used_stale_memory": false,
+  "diagnoses": []
+}

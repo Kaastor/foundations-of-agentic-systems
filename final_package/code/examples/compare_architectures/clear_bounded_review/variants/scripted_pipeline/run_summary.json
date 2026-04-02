@@ -1,0 +1,16 @@
+{
+  "read_papers": [
+    "P14-CoverageTrap",
+    "P06-PlanSketch",
+    "P13-StaleReflection",
+    "P04-MemoryPolicy"
+  ],
+  "final_citations": [
+    "P04-MemoryPolicy",
+    "P06-PlanSketch",
+    "P13-StaleReflection",
+    "P14-CoverageTrap"
+  ],
+  "reflection_actions": [],
+  "used_stale_memory": false
+}

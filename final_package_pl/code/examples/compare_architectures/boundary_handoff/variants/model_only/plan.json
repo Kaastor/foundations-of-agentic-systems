@@ -1,0 +1,55 @@
+{
+  "variant": "model_only",
+  "steps": [
+    {
+      "step_id": "01",
+      "label": "assess_scope",
+      "action": "think",
+      "rationale": "Check ambiguity and scope boundaries before acting.",
+      "status": "pending"
+    },
+    {
+      "step_id": "02",
+      "label": "prepare",
+      "action": "think",
+      "rationale": "Prepare the fixed baseline flow.",
+      "status": "done"
+    },
+    {
+      "step_id": "03",
+      "label": "collect_evidence",
+      "action": "act",
+      "rationale": "Collect evidence from the local corpus.",
+      "status": "pending"
+    },
+    {
+      "step_id": "04",
+      "label": "verify_coverage",
+      "action": "verify",
+      "rationale": "Check topic coverage before drafting.",
+      "status": "pending"
+    },
+    {
+      "step_id": "05",
+      "label": "synthesize",
+      "action": "act",
+      "rationale": "Draft the review from available evidence.",
+      "status": "pending"
+    },
+    {
+      "step_id": "06",
+      "label": "final_verify",
+      "action": "verify",
+      "rationale": "Check final success criteria before stopping.",
+      "status": "pending"
+    },
+    {
+      "step_id": "07",
+      "label": "stop_or_handoff",
+      "action": "stop",
+      "rationale": "Stop successfully or emit a bounded handoff outcome.",
+      "status": "pending"
+    }
+  ],
+  "replans": 0
+}

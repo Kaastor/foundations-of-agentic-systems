@@ -1,0 +1,8 @@
+.DS_Store
+
+# Local teacher/runtime state that should not ship with the final package.
+code/.venv/
+code/.pytest_cache/
+code/scratch/
+code/**/__pycache__/
+

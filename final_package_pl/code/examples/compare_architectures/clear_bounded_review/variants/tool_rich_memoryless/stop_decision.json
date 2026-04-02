@@ -1,0 +1,12 @@
+{
+  "step": 10,
+  "outcome": "handoff",
+  "rationale": "The latest verification still contains blocking issues.",
+  "satisfied_success_criteria": [],
+  "remaining_blockers": [
+    "planning: missing topic coverage for grounding",
+    "grounding: final review lacks sufficient citations"
+  ],
+  "handoff_required": true,
+  "boundary_topics": []
+}

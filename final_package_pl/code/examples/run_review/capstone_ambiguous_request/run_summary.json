@@ -1,0 +1,11 @@
+{
+  "read_papers": [],
+  "final_citations": [],
+  "reflection_actions": [],
+  "used_memory_entries": [],
+  "used_stale_memory": false,
+  "diagnoses": [
+    "grounding",
+    "stop"
+  ]
+}

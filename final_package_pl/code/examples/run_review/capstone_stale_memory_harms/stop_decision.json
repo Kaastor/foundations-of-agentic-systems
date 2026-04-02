@@ -1,0 +1,12 @@
+{
+  "step": 17,
+  "outcome": "success",
+  "rationale": "All final success checks passed.",
+  "satisfied_success_criteria": [
+    "Every requested topic is covered by evidence from at least one local paper.",
+    "The final review includes citations assembled from the local corpus."
+  ],
+  "remaining_blockers": [],
+  "handoff_required": false,
+  "boundary_topics": []
+}

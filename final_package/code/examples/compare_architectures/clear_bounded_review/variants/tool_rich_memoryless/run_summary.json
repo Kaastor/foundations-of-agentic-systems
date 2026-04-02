@@ -1,0 +1,20 @@
+{
+  "read_papers": [
+    "P14-CoverageTrap",
+    "P13-StaleReflection",
+    "P06-PlanSketch",
+    "P04-MemoryPolicy"
+  ],
+  "final_citations": [
+    "P04-MemoryPolicy",
+    "P06-PlanSketch"
+  ],
+  "reflection_actions": [],
+  "used_memory_entries": [],
+  "used_stale_memory": false,
+  "diagnoses": [
+    "planning",
+    "grounding",
+    "stop"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "request_id": "tool_success_not_task_success",
+  "raw_request": "Using only the local corpus, produce a short literature review that compares tool interfaces with evidence-backed verification in agentic literature-review assistants. Use 4 local papers. Do not stop after a successful search; stop only when the comparison itself is grounded.",
+  "normalized_request": "Using only the local corpus, produce a short literature review that compares tool interfaces with evidence-backed verification in agentic literature-review assistants. Use 4 local papers. Do not stop after a successful search; stop only when the comparison itself is grounded.",
+  "goals": [
+    "Produce a bounded literature review using only the shipped local corpus.",
+    "Explain tools with explicit evidence.",
+    "Explain grounding with explicit evidence.",
+    "Explain reflection with explicit evidence.",
+    "Compare the requested alternatives rather than listing papers independently."
+  ],
+  "constraints": [
+    "Use local corpus papers only; no live retrieval or external APIs.",
+    "Keep the run deterministic and inspectable.",
+    "Use between 4 and 4 papers unless a valid handoff occurs."
+  ],
+  "subgoals": [
+    "Formalize the review request into explicit goals, constraints, and stop rules.",
+    "Collect evidence from the local paper corpus.",
+    "Synthesize a citation-backed review or emit a bounded handoff outcome.",
+    "Surface the tradeoff between the compared architecture choices."
+  ],
+  "success_criteria": [
+    "Every requested topic is covered by evidence from at least one local paper.",
+    "The final review includes citations assembled from the local corpus.",
+    "The final review contains a direct comparison of the requested alternatives."
+  ],
+  "stop_criteria": [
+    "Stop successfully only when all success criteria are satisfied.",
+    "Emit a clarification or handoff outcome when ambiguity or scope boundaries block a safe review.",
+    "If blocking issues remain after bounded replanning, stop with an explicit bounded failure or handoff."
+  ],
+  "ambiguity_flags": [],
+  "clarification_questions": [],
+  "handoff_conditions": [
+    "Ambiguity remains unresolved after task formalization.",
+    "The request depends on out-of-scope topics such as RL, IR internals, live retrieval, symbolic planning, or operations.",
+    "The local corpus cannot support the requested evidence within the paper budget."
+  ],
+  "requested_topics": [
+    "tools",
+    "grounding",
+    "reflection"
+  ],
+  "boundary_topics": [],
+  "assumptions": [
+    "The intended audience is a beginner seeking structural literacy rather than domain specialization."
+  ],
+  "paper_budget_min": 4,
+  "paper_budget_max": 4,
+  "comparison_mode": true,
+  "recommendation_required": false,
+  "max_steps": 20
+}

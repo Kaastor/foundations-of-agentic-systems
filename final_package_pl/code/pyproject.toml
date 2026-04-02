@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "model-to-agent-checkpoint"
+version = "0.1.0"
+description = "Deterministic offline repository for learning how model-only systems become bounded agent architectures."
+authors = ["OpenAI"]
+readme = "README.md"
+packages = [{ include = "m2a", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[tool.poetry.scripts]
+m2a = "m2a.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

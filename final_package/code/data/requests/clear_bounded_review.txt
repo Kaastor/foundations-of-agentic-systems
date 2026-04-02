@@ -1,0 +1,1 @@
+Prepare a beginner-friendly literature review about planning, memory, and grounding in offline literature-review assistants. Use only the local corpus. Compare lightweight planning with more explicit architecture choices. Cite 4 local papers and stop only when each requested topic is covered with evidence.

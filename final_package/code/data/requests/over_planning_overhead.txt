@@ -1,0 +1,1 @@
+Give a very short review of model-only versus scripted baselines using at most 2 papers. Keep it simple, cite the papers, and avoid unnecessary overhead.

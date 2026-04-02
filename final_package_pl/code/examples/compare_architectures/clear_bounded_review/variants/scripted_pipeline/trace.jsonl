@@ -1,0 +1,9 @@
+{"step": 1, "phase": "observe", "event_type": "task_received", "message": "Received structured task spec.", "action_name": null, "evidence_refs": [], "data": {}}
+{"step": 2, "phase": "act", "event_type": "tool_call", "message": "Search returned 4 result(s).", "action_name": "search_corpus", "evidence_refs": ["P14-CoverageTrap", "P06-PlanSketch", "P13-StaleReflection", "P04-MemoryPolicy"], "data": {}}
+{"step": 3, "phase": "act", "event_type": "tool_call", "message": "Read P14-CoverageTrap.", "action_name": "read_paper", "evidence_refs": ["P14-CoverageTrap"], "data": {}}
+{"step": 4, "phase": "act", "event_type": "tool_call", "message": "Read P06-PlanSketch.", "action_name": "read_paper", "evidence_refs": ["P06-PlanSketch"], "data": {}}
+{"step": 5, "phase": "act", "event_type": "tool_call", "message": "Read P13-StaleReflection.", "action_name": "read_paper", "evidence_refs": ["P13-StaleReflection"], "data": {}}
+{"step": 6, "phase": "act", "event_type": "tool_call", "message": "Read P04-MemoryPolicy.", "action_name": "read_paper", "evidence_refs": ["P04-MemoryPolicy"], "data": {}}
+{"step": 7, "phase": "verify", "event_type": "verification_result", "message": "Scripted pipeline checked coverage once with no replanning.", "action_name": null, "evidence_refs": ["P14-CoverageTrap", "P06-PlanSketch", "P13-StaleReflection", "P04-MemoryPolicy"], "data": {"blocking_issues": []}}
+{"step": 8, "phase": "act", "event_type": "tool_call", "message": "Assembled 4 citation(s).", "action_name": "assemble_citations", "evidence_refs": ["P04-MemoryPolicy", "P06-PlanSketch", "P13-StaleReflection", "P14-CoverageTrap"], "data": {}}
+{"step": 9, "phase": "verify", "event_type": "verification_result", "message": "Scripted pipeline made one final pass without corrective action.", "action_name": null, "evidence_refs": ["P14-CoverageTrap", "P06-PlanSketch", "P13-StaleReflection", "P04-MemoryPolicy"], "data": {"blocking_issues": []}}

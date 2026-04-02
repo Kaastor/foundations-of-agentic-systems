@@ -1,0 +1,1 @@
+Use prior notes if helpful, but verify them against the local corpus, to review whether reflection automatically improves correctness. Cite local evidence and say clearly if any prior note was stale.
